@@ -1,0 +1,81 @@
+
+<html>
+<head>
+  
+    <title>to do list</title>
+</head>
+<body>
+
+  <input type="text" id="input" name="input" value="">
+
+  <input type="submit" id="add" value="Add">
+  <input type="submit" id="finish" value="finish">
+  <input type="submit" id="remove" value="remove">
+
+  <!-- <button onclick="add()">Add</button>
+  <p>Dit is de lijst:</p>-->
+   <div id="lijst">...</div> 
+
+
+  <script>
+    var inputtekst = document.getElementById("input").value;
+    let addbutton = document.getElementById("add");
+    let finish = document.getElementById("finish");
+    let remove = document.getElementById("remove");
+
+    var inputlijst=[];
+    // add
+    addbutton.addEventListener('click',()=>{
+      var inputtekst = document.getElementById("input").value;
+        // window.alert(inputtekst);
+        let todoItem = document.createElement("p");
+        todoItem.innerHTML = inputtekst;
+        inputlijst.push(todoItem);
+        document.getElementById("lijst").append(todoItem);
+       // document.getElementById("lijst").innerHTML = inputlijst;
+    })
+
+    // remove
+    remove.addEventListener('click',()=>{
+      var inputtekst = document.getElementById("input").value;
+      inputtekst = Number(inputtekst);
+      lijstlength= inputlijst.length;
+      if(isNaN(inputtekst)){
+        window,alert("error: u hebt geen getal ingevult")
+      }
+      if(inputtekst>lijstlength){
+        window.alert("dit getal bestaat niet in de lijst")
+      }
+      else{
+          let removedElements = inputlijst.splice(inputtekst, 1);
+          if(removedElements.length > 0)
+          {
+            removedElements[0].remove();
+          }
+      }
+    })
+
+
+
+
+    // finish
+    // werkt nog niet!
+    finish.addEventListener('click',()=>{
+      var inputtekst = document.getElementById("input").value;
+      inputtekst = Number(inputtekst);
+      lijstlength= inputlijst.length;
+      if(isNaN(inputtekst)){
+        window,alert("error: u hebt geen getal ingevult")
+      }
+      if(inputtekst>lijstlength){
+        window.alert("dit getal bestaat niet in de lijst")
+      }
+      else{
+        inputlijst[inputtekst].style.fontSize = "oblique";
+      }
+    })
+  
+
+  </script>
+</body>
+</html>

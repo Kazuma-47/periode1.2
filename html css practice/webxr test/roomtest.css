@@ -1,0 +1,27 @@
+html{
+    background-color: cornflowerblue;
+}
+
+
+/* dit laat de xr stuk kleiner worder  */
+a-scene {
+  width:700px;
+  height:400px;
+} 
+
+
+.xrbox{
+    border: solid 1px black;
+    margin-top: 10%;
+    padding-left: 52%;
+    
+}
+
+ /* dit geeft het ene border */
+.xr{
+    margin-top: 9%;
+    margin-bottom: 5%;
+    border: solid 2px black;
+    display: inline-block;
+    
+}

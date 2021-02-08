@@ -1,0 +1,40 @@
+
+
+.boks{
+    width: 95%;
+    height: 650px;
+    border: 1px solid black;
+    /* background-color: rgba(0, 0, 0, 0.144); */
+    margin-left:2.5%;
+    
+}
+
+
+
+/* dit laat de xr stuk kleiner worder  */
+a-scene { 
+    position: absolute;
+    border: 1px solid black;
+    width:60%;
+    height:84%;
+    margin-top: 7px;
+    margin-left: 7px;
+    border: 2px solid black;
+} 
+
+
+.xrbox{
+    border: solid 1px black;
+    margin-top: 10%;
+    padding-left: 52%;
+    
+}
+
+ /* dit geeft het ene border */
+.xr{
+    margin-top: 9%;
+    margin-bottom: 5%;
+    border: solid 2px black;
+    display: inline-block;
+    
+}

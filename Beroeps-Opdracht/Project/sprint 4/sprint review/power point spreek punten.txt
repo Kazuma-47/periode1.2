@@ -1,0 +1,25 @@
+-check discord voor gesprek momenten over onze communicatie en uitleg waarom github niet goed werd gebruikt
+
+
+
+-wat hebben we af
+webxr page css/html
+webxr fotos en optimalisatie van css/js 
+backend testers
+main page/header/footer aangepast
+
+-waar liepen we tegen aan
+(problemen met de grote van de schermen)
+(3d modellen)
+
+-wat kon beter
+
+-wat ging beter vergeleken met sprint 3
+(communicatie)
+(team work)
+(github gebruik)
+
+
+-voortgang
+(zie sprint 1 tot 3 en dan hoe het ging in sprint 4)
+Wat we geleerd hebben van dit project is om samen te werken in plaats vcanopdrachten uitdelen en zelfstandig het maken.

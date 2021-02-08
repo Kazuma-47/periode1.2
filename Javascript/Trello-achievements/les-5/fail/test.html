@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <script>
+        function startTimer()
+        
+        var s=0;
+        var m=0;
+        {
+    document.getElementById('timer').innerHTML= m+":"+s;
+    if (s==00)
+    {
+      if (m == 00)
+      {
+        
+      }
+    }
+    s = s-1;
+    t();
+    function t(){setTimeout(function(){startTimer(m,s)},1000)};
+    }   
+    </script>
+  </head>
+
+  <body>
+    <button onClick = "startTimer()">Start</button>
+
+    <p id = "timer">00:00</p>
+  </body>
+</html>

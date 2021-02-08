@@ -1,0 +1,170 @@
+nav{
+    background-color: rgba(61, 29, 29, 0.521);
+
+    height: 70px;
+}
+
+li strong:hover{
+    color: rgb(230, 230, 220);
+    background-color: rgba(61, 29, 29, 0.753) ;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem !important;
+    padding-left: .5rem;
+}
+
+ul{
+    margin-left: 15%;
+}
+
+strong{
+    color: white;
+}
+/* main body */
+
+/* box waar de slide en tekst in zit */
+.main{
+    position: relative;
+    font-family: Arial;
+    /* border:1px solid black; */
+}
+/* foto plaatsing van de slide */
+.slide{
+    padding-left:1.5%;
+    display:none;
+    z-index: 1;
+}
+.box{
+    position: absolute;
+    top: 0px;
+    left:40px;
+    width: 400px;
+    height: 500px;
+    text-align: left;
+    background-color: rgba(240, 240, 240, 0.726);
+    color: rgb(0, 0, 0);
+    margin-top: 30px ;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.box-groot{
+    position: absolute;
+    top: 0px;
+    left:550px;
+    width: 800px;
+    height: 500px;
+    text-align: left;
+    background-color: rgba(240, 240, 240, 0.726);
+    color: rgb(0, 0, 0);
+    margin-top: 30px ;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* extra content */
+.acties{
+    display: grid;
+    grid-auto-flow: column;
+    /* border: 1px solid black;   */
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.left-box{
+    /* float: left; */
+    right: 80px;
+    width: 400px;
+    height: 550px;
+    text-align: left;
+    background-color: rgba(240, 240, 240, 0.726);
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box-mid{
+    
+    width: 400px;
+    height: 550px;
+    text-align: left;
+    background-color: rgba(240, 240, 240, 0.726);
+    color: rgb(0, 0, 0);
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box-right{
+    /* float: right; */
+    right: 0px;
+    width: 400px;
+    height: 550px;
+    text-align: left;
+    background-color: rgba(240, 240, 240, 0.726);
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* footer lijn */
+.footer{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    
+    margin-top: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+/* footer content */
+
+.info-left{
+    right: 80px;
+    width: 400px;
+    height: 200px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    background-color: rgba(240, 240, 240, 0.726);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.info-mid{
+    right: 80px;
+    width: 400px;
+    height: 200px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    background-color: rgba(240, 240, 240, 0.726);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.info-right{
+    right: 80px;
+    width: 400px;
+    height: 200px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    background-color: rgba(240, 240, 240, 0.726);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}

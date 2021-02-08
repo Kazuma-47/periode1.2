@@ -1,0 +1,332 @@
+html {
+    scroll-behavior: smooth;
+    
+}
+
+nav{
+    background-color: #6f4e37;
+
+    height: 70px;
+    margin-bottom: 5px;
+}
+
+li strong:hover{
+    color: rgb(230, 230, 220);
+    background-color: rgba(61, 29, 29, 0.753) ;
+    padding: 3px;
+    border: 1px solid white;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem !important;
+    padding-left: .5rem;
+}
+
+ul{
+    margin-left: 15%;
+}
+
+strong{
+    color: white;
+}
+/* main body */
+
+/* box waar de slide en tekst in zit */
+.main{
+    position: relative;
+    font-family: Arial;
+    /* border:1px solid black; */
+}
+
+
+/* niews box tekst make up */
+#hoofd-tekst{
+    font-weight: 550;
+    padding-left: 100px;
+}
+#dik #tekst{
+    font-weight: 500;
+}
+/* button */
+.hyper-button {
+    border: solid 1px white;
+    color: #000000;
+    background-color: #3d3c3c62;
+    margin-top: 2%;
+}
+.hyper-button:hover u{
+    color: #ffffff;
+    background-color: #7c7c7c49;
+}
+u{
+    color: #000000;
+}
+
+/* einde news box */
+/* main box */
+#hoofd-tekst-main{
+    font-weight: 550;
+    padding-left: 250px;
+}
+#tekst-main{
+    font-weight: 500;
+
+}
+.lam-foto{
+    margin-right:10px;
+    margin-top: 30px;
+    float: left;
+    height: 300px;
+    width: auto;
+    padding-right: 2%;
+}
+
+
+/* foto plaatsing van de slide */
+.slide{
+    padding-left:1.5%;
+    display:none;
+    z-index: 1;
+}
+.box{
+    position: absolute;
+    top: 0px;
+    left:40px;
+    width: 400px;
+    height: 500px;
+    text-align: left;
+    background-color: rgba(240, 240, 240, 0.726);
+    color: rgb(0, 0, 0);
+    margin-top: 30px ;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.box-groot{
+    position: absolute;
+    top: 0px;
+    left:15%;
+    width: 70%;
+    height: 500px;
+    text-align: left;
+    background-color: rgba(240, 240, 240, 0.726);
+    color: rgb(0, 0, 0);
+    margin-top: 5% ;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.block{
+    width:80%;
+    height: 30px;
+    background-color: #6f4e37e1;
+    margin-left: 10%;
+}
+.block2{
+    width:80%;
+    height: 30px;
+    background-color: #6f4e37e1;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+/* extra content */
+.acties{
+    
+    display: grid;
+    grid-auto-flow: column;
+    /* border: 1px solid black;   */
+   margin-left:17%;
+    margin-top: 40px;
+}
+/* linker box en content */
+.left-box{
+    float: left;
+    right: 80px;
+    width: 1000px;
+    height: 550px;
+    text-align: left;
+    background-color:  #6f4e37cb;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.webxr{
+    margin-top: 0px;
+    float: right;
+    width: 500px;
+    height: auto;
+}
+
+.hyper-button-XR {
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    border: solid 2px white;
+    color: #000000;
+    background-color: #3d3c3c62;
+}
+
+.hyper-button-XR:hover u{
+    color: #ffffff;
+    background-color: #7c7c7c49;
+}
+
+.box-right{
+    /* float: right; */
+    border: 1px solid black;
+    right: 0px;
+    width: 400px;
+    height: 550px;
+    text-align: center;
+    background-color:#6f4e37d2;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.rechter-text{
+    background-color: white;
+    font-weight: 500;
+    border: 1px solid black;
+    height: 90%;
+    text-align: left;
+}
+
+/* footer lijn */
+.footer{
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    background-color: #6f4e37e1;
+    border-top: 2px solid black;
+    margin-top: 20px;
+    display: grid;
+    grid-auto-flow: column;
+  
+    
+}
+/* footer content */
+/* left box content */
+.info-left{
+    right: 80px;
+    width: 80%;
+    height: 280px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-right:1px solid black;
+    border-top: 1px solid black;
+    /* background-color: yellowgreen; */
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    
+}
+#openings-tijd{
+    color:white;
+}
+
+
+/* middle box content */
+.info-mid{
+    right: 80px;
+    width: 80%;
+    height: 280px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-top: 1px solid black;
+    /* background-color: rgba(240, 240, 240, 0.726); */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-left:60px;
+    
+}
+.route{
+    color: rgb(253, 245, 131);
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#number{
+    color:white;
+}
+#number:hover{
+    color:  rgb(19, 150, 236);
+}
+#e-mail{
+    color:white;
+}
+#e-mail:hover{
+    color: rgba(30, 161, 248, 0.856);
+}
+
+#route-lijn{
+    color: rgb(255, 238, 0);
+}
+#route-lijn:hover{
+    color:  rgba(30, 161, 248, 0.856);
+}
+.route:hover{
+    color:  rgba(30, 161, 248, 0.856);
+    border-left: 1px solid  rgba(30, 161, 248, 0.856);
+    border-right: 1px solid rgba(30, 161, 248, 0.856);
+    padding-left: 3px;
+    padding-right: 3px;
+}
+/* info right content */
+
+.info-right{
+    width: 80%;
+    height: 280px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    /* background-color: rgba(240, 240, 240, 0.726); */
+    border-left:1px solid black;
+    border-top: 1px solid black;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-left: 45px;
+    
+}
+#email{
+    border: 2px solid black;
+}
+
+/* info over ons exclusief */
+#info-list{
+    margin-left: 50px;
+}
+.lijst{
+    float: left;
+    margin-left: 40px;
+}
+
+.gebouw{
+    width: 700px;
+    height: auto;
+    float: right;
+    margin-right:40px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* tickets exclusief */
+.gesloten-gebouw{
+    height: 500px;
+    width: auto;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}

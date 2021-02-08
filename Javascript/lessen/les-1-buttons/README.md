@@ -1,0 +1,1 @@
+de live versie link voor les 1 is: http://29061.hosts1.ma-cloud.nl/les1.html

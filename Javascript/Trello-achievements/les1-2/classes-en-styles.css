@@ -1,0 +1,39 @@
+html{
+    background-color: rgb(168, 196, 255);
+}
+.red{
+    /* color: red; */
+    font-size: 40px;
+    color:#b20000;
+    margin-left: 40%;
+}
+.box{
+    margin-left:29%;
+    border:2px solid rgb(161, 161, 161);
+    background-color: rgb(206, 201, 201);
+    text-align: center;
+    width: 40%;
+}
+.kop{
+    font-size: 27px;
+    color: blue;
+}
+
+.kop:hover{
+    color: orange;
+}
+.tekst{
+    font-size: 20px;
+    color: yellow;
+}
+.kop2{
+    font-size: 27px;
+    color: black;
+}
+.tekst2{
+    font-size: 20px;
+    color: rgb(24, 199, 68);
+}
+.tekst2:hover{
+    color: rgb(23, 208, 233);
+}

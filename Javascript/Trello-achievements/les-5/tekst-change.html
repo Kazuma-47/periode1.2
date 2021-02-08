@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        
+        #tekst{
+            border: 1px solid black; 
+        }
+        #reset{
+            border:1px solid black;
+        }
+    </style>
+
+    <title>Les 5-event</title>
+</head>
+<body>
+    <p id="tekst"></p>
+    <H1 id="reset">reset</H1>
+
+    <script>
+        document.addEventListener("click",(Functie)=>{
+            document.getElementById("tekst").innerHTML = "Dit is tekst";
+        })
+
+        document.getElementById("tekst").addEventListener("wheel",(Functie)=>{
+            document.getElementById("tekst").innerHTML = "Dit is tekst!!!";
+            document.getElementById("tekst").style.fontSize = "50px";
+        })
+
+        document.getElementById("reset").addEventListener("click",(Functie)=>{
+            // document.getElementById("tekst").innerHTML = "";
+            location.reload();
+        })
+
+
+    </script>
+</body>
+</html>

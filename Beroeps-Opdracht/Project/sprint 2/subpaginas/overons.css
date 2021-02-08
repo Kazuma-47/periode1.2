@@ -1,0 +1,20 @@
+.info{
+    position: relative;
+    font-family: Arial;
+}
+.overons-box{
+    position: absolute;
+    top:0;
+    left:0px;
+    width: 1300px;
+    height: 550px;
+    text-align: left;
+    background-color: rgba(240, 240, 240, 0.726);
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
